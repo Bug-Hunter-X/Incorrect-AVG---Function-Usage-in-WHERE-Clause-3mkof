@@ -1,0 +1,2 @@
+# SQL AVG() Function Error
+This example demonstrates a common error in SQL queries where the AVG() aggregate function is used incorrectly within the WHERE clause. The provided SQL query attempts to filter employees based on whether their salary exceeds the average salary.  However, this approach fails because aggregate functions cannot be directly used within the WHERE clause. The solution involves calculating the average salary in a subquery and then using that value in the main query's WHERE clause.
